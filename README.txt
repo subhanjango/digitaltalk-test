@@ -1,4 +1,4 @@
-## Thoughts about the code.
+Thoughts about the code.
 
 The code uses repository pattern , it gives the impression the logic is abstracted inside the repo class. However, there are some parts of the code like validation , sanitization which is also being done by the repository
 itself which shouldn't have been done , for validation request classes should have been created with proper validations and sanitizations. Most of the code was redundant which could have been solved by breaking the logic
